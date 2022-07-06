@@ -150,12 +150,14 @@ section__about{
 
 section.skills h3 {
     margin-left: 20px;
+    text-align: center;
+    font-size: 35px;
 }
 
 /*Sessão Skill*/
 section.skills div.skills__line {
     display:flex;
-    margin-left: 50px;
+    margin-left: 150px;
     flex-direction:inherit;
     align-items:center;
     justify-content: space-between;
@@ -167,13 +169,15 @@ section.skills div.skills__line {
 
 section.hobbies h3 {
     margin-left: 20px;
+    text-align: center;
+    font-size: 35px;
 }
 
 /*Sessão Hobbies*/
 
 section.hobbies div.hobbies__line {
     display:flex;
-    margin-left: 50px;
+    margin-left: 150px;
     flex-direction:inherit;
     align-items:center;
     justify-content: space-between;
@@ -185,9 +189,15 @@ section.hobbies div.hobbies__line {
 
 /* Experiência Acadêmica*/
 
-section.academic{
-
+section.academic h2 {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 35px;
 }
+
+
+
+
 
 /* experiência*/
 
