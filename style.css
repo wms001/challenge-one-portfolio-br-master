@@ -195,6 +195,18 @@ section.academic h2 {
     font-size: 35px;
 }
 
+section.academic div.academic__courses {
+    display:flex;
+    margin-left: 150px;
+    flex-direction:inherit;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 16px;
+    width: 900px;
+    background: #F5F5F5;
+}
+
 
 
 
