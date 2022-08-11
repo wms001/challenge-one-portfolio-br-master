@@ -214,60 +214,144 @@ section.academic div.academic__courses {
 /* experiência*/
 
 section.experience{
+    font-family: 'Raleway';
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    width: 100vw; 
+}
+
+.experiencie__box {
+    display: flex;
+    align-items:flex-start;
+    width: 90vw;
+}
+
+.experience__info {
+    width: 50%;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.experience__img {
+    width: 500px;
+    padding: 2rem;
 
 }
+
 
 /*Contato*/
 
-section.formcontato{
-
+.contato{
+    background: var(--azul-fundo);
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    width: 100%;
 }
+
+.contato__paragrafo{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.formulario {
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.formulario__legenda{
+    font-weight: 700;
+    font-size: 0.8125rem;
+    margin-bottom: 0.5rem;
+    padding: 3px;
+    text-align: start;
+}
+
+
+.formulario__input{
+    background: #DFDADA;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    height: 41px;
+    padding: 7px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.formulario__input-mensagem{
+    background: #DFDADA;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    height: 120px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    vertical-align: top;
+    width: 100%;
+}
+
+.formulario__container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__botao{
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    height: 37px;    
+    width: 300px;
+    align-items: center;
+}
+
 
 /*footeer*/
 
 section.footer{
-   
+    
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (max-width:1440px){
+    .formulario {
+        width: 50%;
+    }
 
-/* Menu */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Experiências acadêmicas*/
-
-/*Expeirência profissional*/
-
+    .formulario__input {
+        height: 40px;
+    }
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
+@media screen and (max-width:1024px){
+    .formulario {
+        width: 70%;
+    }
 
-/*Menu*/
+    .formulario__input {
+        height: 40px;
+    }
+}
 
-/*Titulo*/
+@media screen and (max-width:960px){
+    .formulario__botao{
+        margin: 0 auto;
+    }
+}
 
-/*Sessão sobre*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
-
-/*Experiência Profissional*/
-
- /*Contato*/
-
-/*Footer*/
-
+@media screen and (max-width:425px) {
+    .formulario {
+        width: 100%;
+    }
 }
