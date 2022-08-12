@@ -316,9 +316,18 @@ section.experience{
 
 /*footeer*/
 
-section.footer{
-    
+.footer {
+    height: 10vh;
+    padding: 1rem 0;  
 }
+
+.footer {
+display: block;
+margin: 0;
+text-align: center;
+}
+
+
 
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
